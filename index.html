@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+<!-- To all who read code:  I don't like using things I don't understand, but I'm going to build off of this bootstrap as an experiment to learn more about professional web design -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" type="image/png" href="./img/jk.png"/>
+    <!-- <link rel="shortcut icon" type="image/png" href="http://example.com/favicon.png"/> -->
+    <title>Standing on the Bootstraps of Giants</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="./css/additional.css">
+
+<!-- I have tried and failed to change the font of my name -->
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Think Higher</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#target">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container d-flex h-100 align-items-center">
+        <div class="mx-auto text-center">
+          <h1 class="mx-auto my-0 text-uppercase">Max Jann</h1>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">A passionate, clever, and diligent software engineer.</h2>
+          <a href="#about" class="btn btn-primary js-scroll-trigger">Learn More</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-white mb-4">Jann Software</h2>
+            <p class="text-white-50">I graduated from <a href="https://www.ucsc.edu/">UCSC</a> with a degree in philosophy.  I have made a social media website to emulate facebook, then I made a fantasy football website to emulate espn.  I've created
+              <a href="https://codejoy-wins.itch.io/">my own game studio</a>. I've made <a href="https://codejoy-wins.itch.io/starsenal-4-the-hunt-for-dark-kirby">2D Platformers</a>, <a href="https://codejoy-wins.itch.io/fps9">3D first person shooters</a> , flying games and <a href="https://codejoy-wins.itch.io/i-am-ghost">adventure games</a></p>
+          </div>
+        </div>
+        <h2><a href="https://lichess.org/@/codejoy/perf/blitz">1768 ELO Chess Rating</a> </h2>
+
+        <!-- DRAGON FIRE -->
+        <img src="./img/dragon.png" class="img-fluid" alt="Jann Software Logo" id="fire" onclick="dragon()" ondblclick="drogon()">
+        <h2><a href="https://www.khanacademy.org/profile/maxjann/">2,110,583 Energy Points on </a>khanacademy</h2>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section bg-light">
+      <div class="container">
+
+        <!-- Featured Project Row -->
+        <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-8 col-lg-7">
+            <a href="http://18.222.207.191/">
+              <img class="img-fluid mb-3 mb-lg-0" src="./img/wff.png" alt="westlake fantasy football app">
+            </a>
+            
+          </div>
+          <div class="col-xl-4 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Westlake Fantasy Football Website</h4>
+              <p class="text-black-50 mb-0">My pride and joy.  Made with Django/Python, hosted by AWS</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project One Row -->
+        <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+          <div class="col-lg-6">
+            <a href="https://youtu.be/ZlEHs1wBGlQ">
+              <img class="img-fluid" src="./img/fb.png" alt="fakebook photo">            
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-left">
+                  <h4 class="text-white">Fakebook</h4>
+                  <p class="mb-0 text-white-50">The first thing I wanted to build after <a href="https://www.codingdojo.com/">bootcamp</a>.  My own version of facebook.</p>
+                  <hr class="d-none d-lg-block mb-0 ml-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Two Row -->
+        <div class="row justify-content-center no-gutters">
+          <div class="col-lg-6">
+            <a href="https://codejoy-wins.itch.io/mad-portfolio">
+              <img class="img-fluid" src="./img/mad.png" alt="Mad Portfolio">
+            </a>
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div class="bg-black text-center h-100 project">
+              <div class="d-flex h-100">
+                <div class="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 class="text-white">Interactive Portfolio</h4>
+                  <p class="mb-0 text-white-50">Another project I wanted to make coming out of the <a href="https://www.codingdojo.com/">bootcamp</a> was an <a href="https://codejoy-wins.itch.io/mad-portfolio">interactive 3D flying resume</a></p>
+                  <hr class="d-none d-lg-block mb-0 mr-0">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Signup Section -->
+    <!-- <section id="signup" class="signup-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+            <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+            <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+            <form class="form-inline d-flex">
+              <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+              <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section class="contact-section bg-black">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Address</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">Burbank CA</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-envelope text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Email</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">
+                  <a href="#">maxwellljann@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                <h4 class="text-uppercase m-0">Phone</h4>
+                <hr class="my-4">
+                <div class="small text-black-50" id="target">+1 (805) 862-7047</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="social d-flex justify-content-center">
+          <a href="https://twitter.com/real_jann" class="mx-2">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.facebook.com/maxwell.jann.3" class="mx-2">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://github.com/codejoy-wins" class="mx-2">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/maxjann/" class="mx-2">
+            <i class="fab featured-text">LI</i>
+          </a>
+          <a href="https://www.maxjann.com/" class="mx-2">
+            <i class="fab featured-text">OG</i>
+          </a>
+          <a href="https://pensive-lumiere-228b4a.netlify.com/alien.html" class="mx-2">
+            <i class="fab featured-text">DJ</i>
+          </a>
+          <a href="https://docs.google.com/document/d/1mQzoxGCvjgC9mTTLTStEfh_nOdcLHX48EyX-f9WLQMc/edit?usp=sharing" class="mx-2">
+            <i class="fab featured-text">CV</i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black small text-center text-white-50">
+      <div class="container">
+        Copyright &copy; Jann Software 2019
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
+
+
+    <script src="js/my.js"></script>
+
+
+  </body>
+
+</html>
